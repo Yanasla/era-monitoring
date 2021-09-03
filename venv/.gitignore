@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+*.pyc
+__pycache__
+.pytest_cache
+venv/
+node_modules/
+package-lock.json
+.idea
+backend/prj.sqlite3
