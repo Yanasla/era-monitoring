@@ -1,0 +1,9 @@
+{% extends 'main/layout.html' %}
+
+{% block title %} Главная {% endblock %}
+
+{% block content %}
+    <h1>Выбор действия</h1>
+    <p>Мониторинг проб или Дашборд</p>
+    {% include 'main/dashboard.py' %}
+{% endblock %}
